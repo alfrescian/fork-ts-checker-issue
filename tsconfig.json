@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "sourceMap": true
+    },
+    "include": [
+        "src/*.d.ts",
+        "src/**/*.ts"
+    ]
+}

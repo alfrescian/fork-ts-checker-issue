@@ -1,0 +1,15 @@
+{
+  "name": "fork-ts-checker",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "fork": "webpack --config ./webpack.fork-ts-checker.config.js",
+    "no-fork": "webpack --config ./webpack.no-fork-ts-checker.config.js"
+  },
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^0.2.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.2.0"
+  }
+}
