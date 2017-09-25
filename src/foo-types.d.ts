@@ -1,3 +1,3 @@
 declare namespace myNamespace {
-    type foo = { bar: string }
+    type foo = { foo: string }
 }
